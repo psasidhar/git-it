@@ -1,6 +1,8 @@
 var chai   = require('chai'),
     assert = chai.assert;
 
+console.log("Test case file for splice");
+
 describe("Splice Test Cases: ", function() {
     describe(".splice", function() {
         it("should modify the array it's operating on", function() {
